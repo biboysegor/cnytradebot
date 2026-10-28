@@ -4,9 +4,6 @@ from telebot import types
 # 1. Вставьте сюда токен вашего бота @cnytrade_bot, полученный от @BotFather
 TOKEN = "8580902159:AAFNTJAfIWibDwLcdjsZG2mtSfxM7Uy4lVU"
 
-# 2. Вставьте сюда ссылку на ваш сайт, которую вы скопировали с Vercel
-WEB_APP_URL = "https://cnytrade.surge.sh"
-
 bot = telebot.TeleBot(TOKEN)
 
 
